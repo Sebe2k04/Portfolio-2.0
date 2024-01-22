@@ -1,0 +1,102 @@
+
+
+.head{
+    backdrop-filter: blur(10px);
+    font-size: 18px;
+    color: black;
+}
+.navbar{
+    font-family: quantum;
+    letter-spacing: 2px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+.left{
+    font-family: sci-fi3;
+    letter-spacing: 2px;
+    animation: logo 4s infinite;
+}
+.center ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    list-style: none;
+}
+.right{
+    display: flex;
+    gap: 5px;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+
+}
+#menu{
+    display: none;
+}
+
+.dropdown{
+    display: none;
+    font-family: quantum;
+    animation: drop 2s;
+}
+
+.dropdown li{
+    padding-right: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: right;
+    list-style: none;
+}
+
+.navbar a{
+    
+    transition: 1s;
+}
+.navbar a:hover{
+    color: white;
+    letter-spacing: 3px;
+}
+.dropdown a{
+    transition: 1s;
+}
+.dropdown a:hover{
+    letter-spacing: 3px;
+    color: white;
+}
+
+@keyframes logo {
+    0%{
+        letter-spacing: 2px;
+    }
+    50%{
+        font-size: 20px;
+        letter-spacing: 8px;
+    }
+    100%{
+        letter-spacing: 2px;
+    }
+    
+}
+
+
+
+@media screen and (max-width:768px) {
+    .center{
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+    .navbar{
+        justify-content: space-between;
+        padding: 20px 40px;
+    }
+    #menu{
+        display: block;
+
+    }
+}

@@ -1,0 +1,119 @@
+.content-pg1{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+}
+.text-pg1{
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 50px;
+
+    text-align: justify;
+}
+.text-pg1 h1{
+    font-family: sci-fi3;
+    font-size: 60px;
+    letter-spacing: 5px;
+    
+}
+.text-pg1 h1 span{
+    animation: name 2s infinite;
+    animation-delay: calc(.1s * var(--i));
+    
+}
+.text-pg1 h3{
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-family: designer;
+}
+.text-pg1 p{
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.textbtn-pg1{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.textbtn-pg1 .btn1{
+    
+    padding: 10px;
+    box-shadow: 2px 2px 10px;
+    border-radius: 10px;
+    background-color: black;
+    transition: 1s;
+}
+.textbtn-pg1 .btn1 a{
+    font-family: designer;
+    font-size: 18px;
+    color: yellow;
+    letter-spacing: 2px;
+    transition: 1s;
+}
+.textbtn-pg1 .btn2{
+    background-color: yellow;
+    padding: 10px;
+    box-shadow: 2px 2px 10px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.textbtn-pg1 .btn2 a{
+    font-family: designer;
+    color:black;
+    letter-spacing: 2px;
+    transition: 1s;
+}
+.img-pg1{
+    display: flex;
+    justify-content: center;
+}
+.img-pg1 img{
+    width: 60%;
+}
+
+.btn1:hover{
+    a{
+        color: black;
+        letter-spacing: 4px;
+    }
+    padding: 12px;
+    background-color: yellow;
+}
+.btn2:hover{
+    a{
+        color: yellow;
+        letter-spacing: 4px;
+    }
+    padding: 12px;
+    background-color: black;
+}
+
+@keyframes name{
+    0%{
+        color: black;
+    }
+    50%{
+        color: white;
+    }
+    100%{
+        color: black;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    .content-pg1{
+        display: flex;
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column-reverse;
+    }
+    .text-pg1{
+        padding: 40px;
+    }
+
+}

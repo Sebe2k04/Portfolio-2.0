@@ -1,0 +1,46 @@
+@font-face {
+    font-family: sci-fi3;
+    src: url(../assets/font3.otf);
+}
+@font-face {
+    font-family: avenger;
+    src: url(../assets/fonts/AVENGEANCE\ HEROIC\ AVENGER.otf);
+}
+@font-face {
+    font-family: quantum;
+    src: url(../assets/fonts/Quantum.otf);
+}
+@font-face {
+    font-family: homoarak;
+    src: url(../assets/fonts/HOMOARAK.TTF);
+}
+@font-face {
+    font-family: spider;
+    src: url(../assets/fonts/Spiderwoman.ttf);
+}
+@font-face {
+    font-family: designer;
+    src: url(../assets/fonts/Designer.otf);
+}
+@font-face {
+    font-family: spirit;
+    src: url(../assets/fonts/Fighting\ Spirit\ 2.otf);
+}
+@font-face {
+    font-family: moto;
+    src: url(../assets/fonts/moto-verse.otf);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../assets/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
