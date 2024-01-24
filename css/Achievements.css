@@ -1,0 +1,57 @@
+.achievements{
+    margin-top: 100px;
+}
+.text-achievements h1{
+    font-family: sci-fi3;
+    text-align: center;
+}
+.text-achievements p{
+    line-height:150%;
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    padding: 50px;
+}
+.loader-achievements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.loader-achievements i{
+    width: fit-content;
+    animation: spin .8s infinite;
+}
+.card-achievements{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.card-achievements a{
+    display: flex;
+    font-weight: bold;
+    margin-top: 1px;
+
+}
+.card-achievements p{
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.achievements #load{
+    text-align: center;
+    font-family: sci-fi3;
+
+}
+@media screen and (max-width:768px) {
+
+    .text-achievements p{
+        padding: 40px;
+    }
+
+}

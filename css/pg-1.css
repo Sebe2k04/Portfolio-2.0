@@ -27,6 +27,7 @@
     font-family: designer;
 }
 .text-pg1 p{
+    line-height:150%;
     margin-top: 30px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
@@ -43,7 +44,7 @@
     padding: 10px;
     box-shadow: 2px 2px 10px;
     border-radius: 10px;
-    background-color: black;
+    background-color: transparent;
     transition: 1s;
 }
 .textbtn-pg1 .btn1 a{
@@ -54,7 +55,7 @@
     transition: 1s;
 }
 .textbtn-pg1 .btn2{
-    background-color: yellow;
+    background-color: transparent;
     padding: 10px;
     box-shadow: 2px 2px 10px;
     border-radius: 10px;
@@ -69,9 +70,11 @@
 .img-pg1{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .img-pg1 img{
     width: 60%;
+    height: max-content;
 }
 
 .btn1:hover{
@@ -113,6 +116,9 @@
     }
     .text-pg1{
         padding: 40px;
+    }
+    .text-pg1 h1,h3{
+        text-align: center;
     }
 
 }

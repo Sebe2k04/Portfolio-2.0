@@ -37,6 +37,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body{
     background: url(../assets/bg.jpg);
@@ -44,3 +45,29 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
+
+
+
+/* .anim-img{
+    display: flex;
+    justify-content: center;
+}
+
+
+#webdev{
+    animation: rotate 10s infinite;
+}
+
+@keyframes rotate {
+    0%{
+        rotate: 0deg;
+    }
+    50%{
+        rotate: 180deg;
+    }
+
+    100%{
+        rotate: 360deg;
+    }
+    
+} */

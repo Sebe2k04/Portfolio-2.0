@@ -14,9 +14,18 @@
     padding: 20px 0px;
 }
 .left{
+    display: flex;
+    gap: 10px;
     font-family: sci-fi3;
     letter-spacing: 2px;
     animation: logo 4s infinite;
+}
+.left p{
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 40px;
 }
 .center ul{
     display: flex;
