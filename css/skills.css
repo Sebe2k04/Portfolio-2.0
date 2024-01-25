@@ -1,5 +1,5 @@
 .skills{
-    margin-top: 100px;
+    padding-top: 100px;
 }
 .skills h1{
     font-family: sci-fi3;
@@ -14,6 +14,7 @@
 .skillcard{
     margin: auto;
     text-align: center;
+    transition: .5s;
     
 }
 .skillcard i{

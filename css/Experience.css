@@ -1,0 +1,70 @@
+.Experience{
+    padding-top: 100px;
+    margin: 40px;
+}
+.Experience h1{
+    font-family: sci-fi3;
+    text-align: center;
+}
+.Experience p{
+    margin-top: 10px;
+    text-align: justify;
+    line-height: 150%;
+    margin-top: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.content-experience{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(2,1fr);
+}
+.card-experience{
+    box-shadow: 2px 2px 10px;
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+    margin-top: 40px;
+    text-align: justify;
+    transition: .5s;
+}
+.card-experience h2{
+    font-family: sci-fi3;
+    letter-spacing: 2px;
+    font-size: 24px;
+}
+.card-experience h4{
+    font-family: designer;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+.card-experience h3{
+    margin-top: 10px;
+    float: left;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.card-experience p{
+    margin-top: 10px;
+    text-align: justify;
+    line-height: 150%;
+    margin-top: 30px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.card-experience:hover{
+    color: white;
+}
+
+
+@media screen and (max-width:768px) {
+    .content-experience{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    
+}

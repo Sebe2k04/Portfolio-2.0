@@ -45,27 +45,27 @@
     box-shadow: 2px 2px 10px;
     border-radius: 10px;
     background-color: transparent;
-    transition: 1s;
+    transition: .5s;
 }
 .textbtn-pg1 .btn1 a{
     font-family: designer;
     font-size: 18px;
     color: yellow;
     letter-spacing: 2px;
-    transition: 1s;
+    transition: .5s;
 }
 .textbtn-pg1 .btn2{
     background-color: transparent;
     padding: 10px;
     box-shadow: 2px 2px 10px;
     border-radius: 10px;
-    transition: 1s;
+    transition: .5s;
 }
 .textbtn-pg1 .btn2 a{
     font-family: designer;
     color:black;
     letter-spacing: 2px;
-    transition: 1s;
+    transition: .5s;
 }
 .img-pg1{
     display: flex;

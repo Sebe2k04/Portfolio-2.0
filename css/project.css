@@ -1,5 +1,5 @@
 .projects{
-    margin-top: 100px;
+    padding-top: 100px;
 }
 .projects h1{
     font-family: sci-fi3;
@@ -16,7 +16,7 @@
     box-shadow: 2px 2px 10px;
     border-radius: 10px;
     padding: 20px;
-    transition: 1s;
+    transition: .5s;
 }
 .card-project p{
     margin-top: 20px;
@@ -50,7 +50,7 @@
     font-family: sci-fi3;
 
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:600px) {
     .content-projects{
         grid-template-columns: repeat(1,1fr);
     }

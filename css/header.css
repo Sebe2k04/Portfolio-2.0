@@ -1,9 +1,14 @@
 
 
 .head{
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     font-size: 18px;
     color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 }
 .navbar{
     font-family: quantum;
@@ -11,7 +16,7 @@
     font-weight: bold;
     display: flex;
     justify-content: space-around;
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 .left{
     display: flex;
@@ -28,12 +33,14 @@
     width: 40px;
 }
 .center ul{
+    padding-top: 10px;
     display: flex;
     justify-content: space-around;
     gap: 20px;
     list-style: none;
 }
 .right{
+    padding-top: 10px;
     display: flex;
     gap: 5px;
     
@@ -44,6 +51,7 @@ a{
 
 }
 #menu{
+    padding-top: 10px;
     display: none;
 }
 
@@ -102,7 +110,7 @@ a{
     }
     .navbar{
         justify-content: space-between;
-        padding: 20px 40px;
+        padding: 10px 40px;
     }
     #menu{
         display: block;
