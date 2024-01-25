@@ -43,6 +43,7 @@ footer{
     transition: .5s;
 }
 .footer-links a:hover{
+    cursor: pointer;
     background-color: rgb(255, 225, 53);
     box-shadow: white 2px 2px 30px;
     color: rgb(0, 0, 0);

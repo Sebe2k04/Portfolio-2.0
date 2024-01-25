@@ -30,11 +30,12 @@
     transition: .5s;
 }
 .card-experience h2{
-    font-family: sci-fi3;
+    font-family: quantum;
     letter-spacing: 2px;
     font-size: 24px;
 }
 .card-experience h4{
+    margin-top: 10px;
     font-family: designer;
     letter-spacing: 2px;
     font-size: 14px;
@@ -58,6 +59,7 @@
 }
 .card-experience:hover{
     color: white;
+    cursor: pointer;
 }
 
 

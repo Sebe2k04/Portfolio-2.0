@@ -26,6 +26,7 @@
     padding: 15px;
 }
 .skillcard:hover{
+    cursor: pointer;
     i{
         background-color: yellow;
         color: white;

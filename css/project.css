@@ -5,6 +5,12 @@
     font-family: sci-fi3;
     text-align: center;
 }
+.projects h2{
+    font-family: moto;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
 .content-projects{
     margin: 50px;
     display: grid;
@@ -32,7 +38,17 @@
     margin-top: 20px;
     font-weight: bold;
 }
+.links i{
+    padding: 5px;
+    box-shadow: 2px 2px 10px;
+    border-radius: 30px;
+}
+.links i:hover{
+    box-shadow: white 2px 2px 10px;
+    color: white;
+}
 .card-project:hover{
+    cursor: pointer;
     color: white;
 }
 .loader-projects{

@@ -1,5 +1,7 @@
-.about h1{
+.about{
     padding-top: 100px;
+}
+.about h1{
     font-family: sci-fi3;
     text-align: center;
 }
@@ -34,6 +36,11 @@
     display: flex;
     align-items: end;
     justify-content: center;
+    transition: .5s;
+}
+.content:hover{
+    box-shadow:yellow 5px 5px 50px;
+    cursor: pointer;
 }
 .text{
     color: rgb(0, 0, 0);
@@ -68,7 +75,7 @@
     padding-bottom: 8px;
     border-radius: 100px;
     background-color: rgb(255, 255, 255);
-    box-shadow: black 2px 2px 10px;
+    box-shadow: 2px 2px 10px;
     transition: .5s;
 }
 .person-links a:hover{
@@ -91,15 +98,18 @@
     backdrop-filter: blur(5px);
     border-radius: 10px;
     width: max-content;
-    transition: 2s;
+    transition: 1s;
     box-shadow: 2px 2px 10px black;
+    transition: .5s;
 }
 .cv a{
     font-family: designer;
-    transition: 2s;
+    
 }
 .cv:hover{
     padding: 15px 25px;
+    box-shadow: white 2px 2px 10px;
+    cursor: pointer;
     a{
         letter-spacing: 2px;
         color: white;
@@ -107,6 +117,7 @@
 }
 
 /* text */
+
 .about-content{
     margin-top: 50px;
     line-height:150%;

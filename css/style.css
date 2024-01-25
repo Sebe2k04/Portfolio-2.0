@@ -46,7 +46,15 @@ body{
     background-attachment: fixed;
 }
 
-
+#tagline{
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: designer;
+    font-size: 14px;
+    color: rgb(249, 232, 124);
+}
 
 /* .anim-img{
     display: flex;
